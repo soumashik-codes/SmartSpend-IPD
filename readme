@@ -1,0 +1,32 @@
+# SmartSpend – Predictive Personal Finance Tracker (IPD Prototype)
+
+This repository contains the **Interim Progress Demonstration (IPD)** prototype for the
+Final Year Project **SmartSpend – Predictive Personal Finance Tracker**.
+
+## Live Prototype
+The prototype is hosted using Streamlit Cloud:
+
+👉**Live App:**  
+https://smartspend-ipd-n7yubpb9ceuyeizxcpwiyi.streamlit.app
+If the app is temporarily unavailable due to deployment delays/Streamlit errors, please refresh after a few minutes or try running locally.
+
+## How to run locally
+1) Create virtual environment (Windows)
+python -m venv .venv  
+.venv\Scripts\activate
+
+2) Install dependencies
+pip install -r requirements.txt
+
+3) Run the application
+streamlit run app.py
+
+## Login
+Create an account using the **Create Account** tab, then log in to access the dashboard
+and features.
+
+## Notes (IPD Stage)
+- All data is stored locally using SQLite (`db/smartspend.db`)
+- No external bank APIs are used (privacy-preserving design)
+- Receipt OCR uses **Tesseract OCR** and requires it to be installed locally
+  (optional / partial implementation at IPD stage)
