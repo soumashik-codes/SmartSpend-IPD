@@ -8,7 +8,7 @@ The prototype is hosted using Streamlit Cloud:
 
 👉**Live App:**  
 https://smartspend-ipd-n7yubpb9ceuyeizxcpwiyi.streamlit.app
-If the app is temporarily unavailable due to deployment delays/Streamlit errors, please refresh after a few minutes or try running locally.
+If the app is temporarily unavailable due to deployment issues/Streamlit errors, please refresh after a few minutes or try running locally.
 
 ## How to run locally
 1) Create virtual environment (Windows)
@@ -30,3 +30,13 @@ and features.
 - No external bank APIs are used (privacy-preserving design)
 - Receipt OCR uses **Tesseract OCR** and requires it to be installed locally
   (optional / partial implementation at IPD stage)
+
+The application functions correctly in a local environment and when run via the
+repository source code.
+
+The Streamlit Cloud deployment may encounter a dependency-related issue, which can prevent the hosted version from loading in some cases.
+This is an environment limitation of Streamlit Cloud rather than an application
+logic issue.
+
+All core functionality and features can be reviewed by running the application
+locally using the steps above.
