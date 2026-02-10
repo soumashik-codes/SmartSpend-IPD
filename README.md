@@ -122,6 +122,8 @@ Further development in the final phase will focus on:
 
 Improved UI/UX
 
+A Decoupled Backend Frontend Structure is planned replacing Streamlit.
+
 Enhanced predictive accuracy
 
 Scalability and robustness
